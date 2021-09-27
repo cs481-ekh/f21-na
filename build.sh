@@ -14,7 +14,13 @@ clnpyb ()
     git clone https://github.com/pybind/pybind11.git
 }
 clnpyb
-echo "pybind 11 cloned.."
+
+if [ $? -eq 0 ]; then
+    echo "pybind 11 cloned.."
+else
+    echo FAIL
+fi
+
 
 
 #Compile C++ module in utils/lib_cpp
@@ -26,21 +32,45 @@ cmake ()
     make
 }
 cmake
-echo "Compiling C++ cmake"
+if [ $? -eq 0 ]; then
+    echo "Compiling C++ cmake"
+else
+    echo FAIL
+fi
+
 
 
 #copy the lib_cpp.so to root directory
-echo "copying lib_cpp.so to root"
+if [ $? -eq 0 ]; then
+    echo OK
+else
+    echo FAIL
+fi
+
+
 cp lib_cpp.so ../../../
 
+if [ $? -eq 0 ]; then
+    echo "copying lib_cpp.so to root"
+else
+    echo FAIL
+fi
+
 #download and unzip pre_trained model and unzip to root dir
-echo "downloading and unzipping pre_trained model"
+
 pre_trained () 
 {
     wget https://terra-1-g.djicdn.com/65c028cd298f4669a7f0e40e50ba1131/github/Livox_detection1.1_model.zip
     unzip Livox_detection1.1_model.zip -d ../../../
 }
 pre_trained
+
+some_command
+if [ $? -eq 0 ]; then
+    echo "downloading and unzipping pre_trained model"
+else
+    echo FAIL
+fi
 
 #Run
 echo "downloading provided rosbags"
@@ -61,9 +91,12 @@ roscore_ ()
 }
 
 roscore_
+some_command
+if [ $? -eq 0 ]; then
+    echo OK
+else
+    echo FAIL
+fi
 
 
-
-
-
-exit 127
+exit 0
