@@ -1,0 +1,21 @@
+name: Run Test + Build Script
+on: push
+
+jobs:
+  linux:
+    name: Linux Build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo Code
+      uses: actions/checkout@v1
+
+    - name: Run Package Builder
+      run: |
+      chmod +x ./build.sh
+      ./build.sh
+
+    - name: Run Package Tester
+      run: |
+      chmod +x ./test.sh
+      ./test.sh
