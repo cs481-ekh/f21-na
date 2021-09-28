@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 #This script builds the project in the repo but checking all packages are installed
 
