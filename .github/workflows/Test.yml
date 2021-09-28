@@ -1,0 +1,14 @@
+name: Run Test Script
+on: push
+
+jobs:
+  linux:
+    name: Linux Build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo Code
+      uses: actions/checkout@v1
+      
+    - name: Run Package Tester
+      run: sh ./test.sh
