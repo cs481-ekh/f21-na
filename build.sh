@@ -69,7 +69,6 @@ pre_trained ()
 }
 pre_trained
 
-some_command
 if [ $? -eq 0 ]; then
     echo "downloading and unzipping pre_trained model"
 else
@@ -95,7 +94,6 @@ roscore_ ()
 }
 
 roscore_
-some_command
 if [ $? -eq 0 ]; then
     echo OK
 else
