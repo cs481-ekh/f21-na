@@ -1,4 +1,4 @@
-name: Run Test + Build Script
+name: Run Build Script
 on: push
 
 jobs:
@@ -12,7 +12,3 @@ jobs:
 
     - name: Run Package Builder
       run: sh ./build.sh
-
-
-    - name: Run Package Tester
-      run: sh ./test.sh
