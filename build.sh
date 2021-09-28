@@ -25,13 +25,14 @@ fi
 
 #Compile C++ module in utils/lib_cpp
 echo "Compiling C++ module"
-cmake ()
+cmake_ ()
 {
-    mkdir build && cd build
+    mkdir build
+    cd build
     cmake -DCMAKE_BUILD_TYPE=Release ..
     make
 }
-cmake
+cmake_
 if [ $? -eq 0 ]; then
     echo "Compiling C++ cmake"
 else
