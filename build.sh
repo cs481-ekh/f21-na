@@ -10,7 +10,7 @@ sudo apt-get update
 echo "Cloning pybind11"
 clnpyb ()
 {
-    cd utils/lib_cpp
+    cd livox_detection-master/utils/lib_cpp
     git clone https://github.com/pybind/pybind11.git
 }
 clnpyb
