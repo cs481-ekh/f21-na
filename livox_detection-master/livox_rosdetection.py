@@ -1,14 +1,14 @@
 import os
 import numpy as np
-import tensorflow as tf
+import tensorflow as tf #incompat, use compat.v1.tf
 import copy
 import config.config as cfg
 from networks.model import *
-import lib_cpp
+import lib_cpp #cant find
 
 import time
 
-import rospy
+import rospy #doesnt really work
 import std_msgs.msg
 from geometry_msgs.msg import Point
 from sensor_msgs.msg import PointCloud2
@@ -68,7 +68,7 @@ class Detector(object):
                 config.allow_soft_placement = True
                 config.log_device_placement = False
                 self.sess = tf.Session(config=config)
-                saver.restore(self.sess, cfg.MODEL_PATH)
+                saver.restore(self.sess, cfg.MODEL_PATH) #losing address to cfg.MODEL_PATH if not running
                 self.ops = {'input_bev_img_pl': input_bev_img_pl,  # input
                             'end_points': end_points,  # output
                             }
