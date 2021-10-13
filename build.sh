@@ -10,7 +10,7 @@ sudo apt-get install g++
 sudo apt-get install python3.8
 sudo apt-get install build-essential
 sudo apt-get install -y libpython-all-dev
-sudo apt-get install rosbin
+#sudo apt-get install rosbin
 sudo apt-get install rviz
 sudo apt install python3-pip
 pip install --upgrade pip
