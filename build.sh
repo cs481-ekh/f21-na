@@ -96,20 +96,21 @@ rosbag ()
 }
 
 #roscore venv
-roscore_ ()
-{
-    roscore
-    rviz -d ./config/show.rviz
-    python livox_rosdetection.py
-    rosbag play *.bag -r 0.1
-}
+# this should be done manually
+# roscore_ ()
+# {
+#     roscore
+#     rviz -d ./config/show.rviz
+#     python livox_rosdetection.py
+#     rosbag play *.bag -r 0.1
+# }
 
-roscore_
-if [ $? -eq 0 ]; then
-    echo OK
-else
-    echo FAIL
-fi
+# roscore_
+# if [ $? -eq 0 ]; then
+#     echo OK
+# else
+#     echo FAIL
+# fi
 
 
 exit 0
