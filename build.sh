@@ -3,9 +3,20 @@ set -e
 
 #This script builds the project in the repo but checking all packages are installed
 
-sudo apt-get update
+sudo apt update
 sudo apt-get install libboost-all-dev -y
-
+sudo apt-get install cmake
+sudo apt-get install g++
+sudo apt-get install python3.8
+sudo apt-get install build-essential
+sudo apt-get install -y libpython-all-dev
+#sudo apt-get install rosbin
+sudo apt-get install rviz
+sudo apt install python3-pip
+pip install --upgrade pip
+pip install tensorflow
+sudo apt install python3-numpy
+sudo apt install 
 #sudo
 
 
@@ -85,20 +96,21 @@ rosbag ()
 }
 
 #roscore venv
-roscore_ ()
-{
-    roscore
-    rviz -d ./config/show.rviz
-    python livox_rosdetection.py
-    rosbag play *.bag -r 0.1
-}
+# this should be done manually
+# roscore_ ()
+# {
+#     roscore
+#     rviz -d ./config/show.rviz
+#     python livox_rosdetection.py
+#     rosbag play *.bag -r 0.1
+# }
 
-roscore_
-if [ $? -eq 0 ]; then
-    echo OK
-else
-    echo FAIL
-fi
+# roscore_
+# if [ $? -eq 0 ]; then
+#     echo OK
+# else
+#     echo FAIL
+# fi
 
 
 exit 0
