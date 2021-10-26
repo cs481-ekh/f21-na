@@ -1,1 +1,1 @@
-# TODO - Github page
+# Environment was setup on the PC
