@@ -1,6 +1,7 @@
 import os
 import numpy as np
-import tensorflow as tf #incompat, use compat.v1.tf
+import tensorflow.compat.v1 as tf #incompat, use compat.v1.tf
+tf.disable_v2_behavior()
 import copy
 import config.config as cfg
 from networks.model import *
