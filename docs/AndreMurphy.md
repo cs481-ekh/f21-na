@@ -1,0 +1,8 @@
+##Andre Murphy Time Log
+10/29/21 - 4hrs - Got Ubuntu environment working as well as RVIZ to pass through the GUI in a WSL. Got Livox Lidar connected to the PC/Ubuntu terminal and output the data packets. Recorded data from the Livox LiDAR and saved the output to an LVX file. Started working on getting the LiDAR to show in the RVIZ virtual environment. Ran into problems so I spent the last hour trying to figure out why the PointCloud data output wasn't displaying in the RVIZ environment.
+
+11/5/21 - 5hrs - Worked on linking the new virtualiziation windows so that everything is running synchronously. Eventually got the virtualzation to display by changing the ROS topic to the object detection node/topic /filtered_cloud. However I could not get the object detection showing or running properly.
+
+11/8/21 - 3hrs - Met with Nick in the lab and worked on getting errors removed from the RVIZ console. Eventually got the object detection running and processing data but we could not figure out how to get the published obj detection nodes to visualalize in RVIZ.
+
+11/10/21 - 4hrs - Met with Andre in the lab and we rebuilt the entire project from the ground up to write the procedural document. This involved removing and reinstalling all the dependencies and terminals we were using to ensure we hit all the steps. After we got everything running again, we debugged the RVIZ console together and found out that our TF tree was incorrect and we weren't putting the correct frame in RVIZ. After updating the frame and TF data. It worked! The object detection works although there seems to be some bugs with it. There is a 15 second latency delay from real time to obj detection so everything needs to be run and then paused to work.
