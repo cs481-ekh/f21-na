@@ -34,51 +34,51 @@ BSU CS481 Capstone project template
 
 ### Setting up Repositories
 
--git clone https://github.com/Livox-SDK/Livox-SDK.git
--cd Livox-SDK
--cd build
--cmake ..
+git clone https://github.com/Livox-SDK/Livox-SDK.git  
+cd Livox-SDK  
+cd build  
+cmake ..  
 
--make
--sudo make install
--cd
+make  
+sudo make install  
+cd  
 
--git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src
--cd ws_livox
--catkin make
-
-
--source ./devel/setup.sh
--LIBGL_ALWAYS_INDIRECT=
-
--cd src
--git clone https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git
+git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src  
+cd ws_livox  
+catkin make  
 
 
--cd ..
--catkin make
--source ./devel/setup.sh
--LIBGL_ALWAYS_INDIRECT=
+source ./devel/setup.sh  
+LIBGL_ALWAYS_INDIRECT=  
 
--cd src
--cd livox_ros_driver/
--cd config
+cd src  
+git clone https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git  
 
--rm display_lidar_points.rviz
 
--cp /mnt/c/Users/“Username”/Downloads/display_lidar_points.rviz
--cd 
--cd ws_livox
+cd ..  
+catkin make  
+source ./devel/setup.sh  
+LIBGL_ALWAYS_INDIRECT=  
 
--catkin make
--source ./devel/setup.sh
--LIBGL_ALWAYS_INDIRECT=
+cd src  
+cd livox_ros_driver/  
+cd config  
 
--cd src
--cd livox_ros_driver
--cd launch
+rm display_lidar_points.rviz  
 
--roslaunch livox_lidar_rviz.launch 
+cp /mnt/c/Users/“Username”/Downloads/display_lidar_points.rviz  
+cd   
+cd ws_livox  
+
+catkin make  
+source ./devel/setup.sh  
+LIBGL_ALWAYS_INDIRECT=  
+
+cd src  
+cd livox_ros_driver  
+cd launch  
+
+roslaunch livox_lidar_rviz.launch   
 
 **IN NEW UBUNTU SHELL**
 
