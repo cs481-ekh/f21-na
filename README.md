@@ -14,10 +14,12 @@ BSU CS481 Capstone project template
 5. Download some [rosbag](https://terra-1-g.djicdn.com/65c028cd298f4669a7f0e40e50ba1131/github/livox_detection_v1.1_data.zip) files to run the object detection on.
 
 ### Building the Project
-Clone the repository with:
+Clone the repository with:  
+
     $ git clone https://github.com/cs481-ekh/f21-na.git  
 
-Aafter doing the prerequisites, build the project with:
+Aafter doing the prerequisites, build the project with:  
+
     $ chmod +x build.sh
     $ ./build.sh
 
