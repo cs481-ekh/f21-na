@@ -1,0 +1,8 @@
+## Nicholas Ravenna - Time Log
+11/2/21 - 2.5hrs - Went to lab to install ros systems on Ubuntu.  Evaluated Andre Murphy previous work and was lost as no notes were made on the machine as to the location of xServer.
+11/7/21 - 3.5hrs - Met with Andre's in the lab and worked on getting errors removed from the RVIZ console. Eventually we got the object detection running. Tried communicating with LiDAR, but direct communication update failed to with to help with LiDAR conversion.
+11/10/2021 - Brief Conversation with Dr. Kenningston - he suggested there is a likely break in the github repository to prevent code from working.
+11/10/2021 - 1.5 hr - Researched lvx to ros install.  Different Github issues/bugs sections evaluated.  Attempted to find a resolution to break issue.  No resolution found, however a previous issue of break in lvx to ros in windows was found.
+11/12/2021 - 1 hr - Researched lvx to ros install.  Different Github issues/bugs sections evaluated.  Attempting to resolve the lvx to ros issue, however a similar issue was found.
+11/13/2021 - 2 hrs - Researched lvx to ros install.  Attempted new method of install on home computer, but failed.
+11/14/2021 - 4 hrs - Met briefly with Andre and got a status update on project.  Spent time trying to install lvx to ros methods on windows.  This involved installing repositories previously attempted installs on new windows, with the added additional knowledge gained from research and a functioning ros environment.
