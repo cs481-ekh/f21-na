@@ -2,7 +2,7 @@
 # Computer Vision-based LIDAR Data Processing for Autonomous Driving
 
 ## Link to Video
-https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0805dc0-3f61-4364-b7b7-adf70024b4d1
+[Team NA Showcase Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d0805dc0-3f61-4364-b7b7-adf70024b4d1)
 ## Team Members
 - Andre Murphy
 - Andre Maldonaldo
