@@ -20,37 +20,12 @@ The way this works is that each rostopic acts as a node that can subscribe and p
 Most of the current object detection software used by Livox is build and managed by a large Chinese company called XPeng. We did our best to tie together existing technologies to build a functional object detection software. With proper communication from Livox, more programs could be accessed that would be beneficial to our project such as a Livox specific object detection software rather than the Velodyne packaged we used.
 
 ## What We Built
-![Image](<img width="836" alt="terminals" src="https://user-images.githubusercontent.com/42878649/144948673-ede9e774-b38f-47ab-bece-f915a1d274f5.PNG">
-)
-TERMINALS
-![Image](<img width="1005" alt="visualizer" src="https://user-images.githubusercontent.com/42878649/144948742-f8b35a46-6213-4aaa-891f-65e8a250ec3b.PNG">
-)
-![Image](<img width="790" alt="objdet" src="https://user-images.githubusercontent.com/42878649/144948775-1a90253c-c452-4d3e-a147-47273813439d.PNG">
-)
-```markdown
-Syntax highlighted code block
+<img width="836" alt="terminals" src="https://user-images.githubusercontent.com/42878649/144948673-ede9e774-b38f-47ab-bece-f915a1d274f5.PNG"><br>
+Here are all the four terminals required to run the program.<br>
 
-# Header 1
-## Header 2
-### Header 3
+<img width="1005" alt="visualizer" src="https://user-images.githubusercontent.com/42878649/144948742-f8b35a46-6213-4aaa-891f-65e8a250ec3b.PNG"><br>
+Here is an image of the RVIZ GUI. You can see all of the rostopics on the left of the viewing window.<br>
 
-- Bulleted
-- List
+<img width="790" alt="objdet" src="https://user-images.githubusercontent.com/42878649/144948775-1a90253c-c452-4d3e-a147-47273813439d.PNG"><br>
+Here you can see our object detection in the works. The white copy of the shapes is the object detection highlighting objects. We initially wanted to get everything surrounded by color coordinated boxes but the repository we were using was no longer supported with modern technologies.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cs481-ekh/f21-na/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
