@@ -74,12 +74,29 @@ Aafter doing the prerequisites, build the project with:
 **IN NEW UBUNTU SHELL**
 
     $ cd ws_livox
+    
+    $ catkin make  
+    
+    $ source ./devel/setup.sh  
 
-    $ rosrun multi_object_tracking_lidar kf_tracker
+    $ rosrun multi_object_tracking_lidar kf_tracker  
 
 
 **IN NEW UBUNTU SHELL**
-
+        
+    $ cd ws_livox
+    
+    $ catkin make  
+    
+    $ source ./devel/setup.sh  
+    
     $ rosbag play *.bag /livox/lidar:=/filtered_cloud
+    
+    
+**IN NEW UBUNTU SHELL**
 
-*rosrun tf stat_transform_publisher 0 0 0 0 0 0 1 map livox_frame 10*
+    $ catkin make  
+    
+    $ source ./devel/setup.sh  
+
+    $ rosrun tf stat_transform_publisher 0 0 0 0 0 0 1 map livox_frame 10
