@@ -1,6 +1,8 @@
 
 # Computer Vision-based LIDAR Data Processing for Autonomous Driving
 
+## Link to Video
+
 ## Team Members
 - Andre Murphy
 - Andre Maldonaldo
