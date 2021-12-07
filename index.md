@@ -1,8 +1,7 @@
+Computer Vision-based LIDAR Data Processing for Autonomous Driving
+
 ##Computer Vision-based LIDAR Data Processing for Autonomous Driving
 
-You can use the [editor on GitHub](https://github.com/cs481-ekh/f21-na/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
