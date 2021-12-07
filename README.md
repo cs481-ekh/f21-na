@@ -51,13 +51,7 @@ Aafter doing the prerequisites, build the project with:
     $ source ./devel/setup.sh  
     $ LIBGL_ALWAYS_INDIRECT=  
 
-    $ cd src  
-    $ cd livox_ros_driver/  
-    $ cd config  
-
-    $ rm display_lidar_points.rviz  
-
-    $ cp /mnt/c/Users/“Username”/Downloads/display_lidar_points.rviz  
+   
     $ cd   
     $ cd ws_livox  
 
