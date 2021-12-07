@@ -1,7 +1,3 @@
-Computer Vision-based LIDAR Data Processing for Autonomous Driving
-
-##Computer Vision-based LIDAR Data Processing for Autonomous Driving
-
 
 ### Markdown
 
