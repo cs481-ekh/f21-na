@@ -93,4 +93,4 @@ Aafter doing the prerequisites, build the project with:
     
     $ source ./devel/setup.sh  
 
-    $ rosrun tf stat_transform_publisher 0 0 0 0 0 0 1 map livox_frame 10
+    $ rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map livox_frame 10
