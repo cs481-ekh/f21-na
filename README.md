@@ -69,7 +69,7 @@ Aafter doing the prerequisites, build the project with:
 
     $ cd ws_livox
     
-    $ catkin make  
+    $ catkin_make  
     
     $ source ./devel/setup.sh  
 
@@ -80,7 +80,7 @@ Aafter doing the prerequisites, build the project with:
         
     $ cd ws_livox
     
-    $ catkin make  
+    $ catkin_make
     
     $ source ./devel/setup.sh  
     
@@ -89,7 +89,7 @@ Aafter doing the prerequisites, build the project with:
     
 **IN NEW UBUNTU SHELL**
 
-    $ catkin make  
+    $ catkin_make 
     
     $ source ./devel/setup.sh  
 
