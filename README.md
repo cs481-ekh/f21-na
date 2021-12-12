@@ -47,7 +47,7 @@ Aafter doing the prerequisites, build the project with:
 
 
     $ cd ..  
-    $ catkin make  
+    $ catkin_make  
     $ source ./devel/setup.sh  
     $ LIBGL_ALWAYS_INDIRECT=  
 
